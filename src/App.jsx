@@ -1,52 +1,52 @@
 import React, { useState } from 'react'
 import Header from './components/Header'
 import ProductCard from './components/ProductCard'
-
+ 
 const productos = [
   {
     nombre: 'Blusa Lunares ',
     precio: 220,
-    imagen: '/src/assets/blusablancapuntosnegros.jpg',
+    imagen: '/images/blusablancapuntosnegros.JPG',
   },
   {
     nombre: 'Blusa Mickey ',
     precio: 220,
-    imagen: '/src/assets/blusamickeylicra.jpg',
+    imagen: '/images/blusamickeylicra.JPG',
   },
   {
     nombre: 'Blusa Animal Print ',
     precio: 250,
-    imagen: '/src/assets/blusaprint.jpg',
+    imagen: '/images/blusaprint.JPG',
   },
   {
     nombre: 'Blusa Lunares Rosa ',
     precio: 220,
-    imagen: '/src/assets/blusarosapuntos.jpg',
+    imagen: '/images/blusarosapuntos.JPG',
   },
   {
     nombre: 'Bolso de Mano Azul',
     precio: 180,
-    imagen: '/src/assets/BolsoAzul.jpg',
+    imagen: '/images/BolsoAzul.JPG',
   },
   {
     nombre: 'Cardigan ',
     precio: 300,
-    imagen: '/src/assets/cardigan.jpg',
+    imagen: '/images/cardigan.JPG',
   },
   {
     nombre: 'Chamarra Mezclilla ',
     precio: 320,
-    imagen: '/src/assets/chamarramezclilla.jpg',
+    imagen: '/images/chamarramezclilla.JPG',
   },
   {
     nombre: 'Bolso De Mano Grande Rose Girl',
     precio: 400,
-    imagen: '/src/assets/rosegirl.jpg',
+    imagen: '/images/rosegirl.JPG',
   },
   {
     nombre: 'BVestido Primavera Azul ',
     precio: 250,
-    imagen: '/src/assets/vestidoprimaveraazul.jpg',
+    imagen: '/images/vestidoprimaveraazul.JPG',
   }
 ]
 
